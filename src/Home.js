@@ -5,8 +5,17 @@ import Banner from './Banner';
 function Home() {
     return (
         <div className='home'>
-            <h1>Home</h1>
-              <Banner />          
+            <Banner />
+            <section className="home__section">
+                <Card />
+                <Card />
+                <Card />
+            </section>
+            <section className="home__section">
+                <Card />
+                <Card />
+                <Card />
+            </section>
         </div>
     )
 }
